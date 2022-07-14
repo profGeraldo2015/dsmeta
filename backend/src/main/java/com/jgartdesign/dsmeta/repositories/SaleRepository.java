@@ -1,7 +1,5 @@
 package com.jgartdesign.dsmeta.repositories;
 
-import java.awt.print.Pageable;
-
 import java.time.LocalDate;
 
 import org.springframework.data.domain.Page;
@@ -15,7 +13,7 @@ import com.jgartdesign.dsmeta.entities.Sale;
 public interface SaleRepository  extends JpaRepository<Sale, Long>{
 	
 //se habilitar as linhas abaixo nao funciona
-	//@Query("SELECT obj FROM Sale obj WHERE obj.date  BETWEEN  :min AND  :max ORDER BY obj.amount DESC")
-	//Page<Sale> findSales(LocalDate min, LocalDate max , Pageable pageable);
+	@Query("SELECT obj FROM Sale obj WHERE obj.date  BETWEEN  :min AND  :max ORDER BY obj.amount DESC")
+	Page<Sale> findSales(LocalDate min, LocalDate max , org.springframework.data.domain.Pageable pageable);
 	
 }
