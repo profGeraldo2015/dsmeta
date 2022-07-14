@@ -46,11 +46,6 @@
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-			<groupId>com.twilio.sdk</groupId>
-			<artifactId>twilio</artifactId>
-			<scope>8.31.1</scope>
-		</dependency>
 		
 	</dependencies>
 
