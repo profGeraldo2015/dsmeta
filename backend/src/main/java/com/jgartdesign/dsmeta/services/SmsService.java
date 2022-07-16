@@ -64,19 +64,19 @@ public class SmsService {
 		case 5:
 			msgmes = "maio";break;
 		case 6:
-			msgmes = "janeiro";break;
+			msgmes = "junho";break;
 		case 7:
-			msgmes = "janeiro";break;
+			msgmes = "julho";break;
 		case 8:
-			msgmes = "janeiro";break;
+			msgmes = "agosto";break;
 		case 9:
-			msgmes = "janeiro";break;
+			msgmes = "setembro";break;
 		case 10:
-			msgmes = "janeiro";break;
+			msgmes = "outubro";break;
 		case 11:
-			msgmes = "janeiro";break;
+			msgmes = "novembro";break;
 		case 12:
-			msgmes = "janeiro";break;
+			msgmes = "dezembro";break;
 
 		}
 
